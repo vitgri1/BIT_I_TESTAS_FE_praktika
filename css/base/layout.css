@@ -1,0 +1,39 @@
+:root {
+    --width: 100%;
+    --half-gap: 15px;
+    --gap: calc(var(--half-gap) * 2);
+    --col: calc(100% - var(--gap));
+}
+
+.hidden {
+    display: none !important;
+}
+
+.container,
+.container-fixed {
+    width: 100%;
+    float: left;
+    background-color: #74C69D;
+}
+
+.container-fixed {
+    height: 125px;
+    display: flex;
+    align-items: center;
+}
+.container > .row {
+    width: var(--width);
+    margin: 0 calc((100% - var(--width)) / 2);
+}
+
+.row > .col {
+    width: var(--col);
+    float: left;
+    margin: 0 var(--half-gap);
+}
+
+@media (min-width: 768px) {
+    :root {
+        --half-gap: 130px;
+    }
+}

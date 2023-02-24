@@ -1,0 +1,12 @@
+.wide-upper-text {
+    font-size: 16px;
+    line-height: 1.25em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.wide-upper-text-alt {
+    color:  #74C69D;
+}

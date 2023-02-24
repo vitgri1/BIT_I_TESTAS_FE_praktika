@@ -1,0 +1,38 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&family=Crimson+Text');
+/* Base css */
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+body * {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+    display: inline-block;
+    width: 100%;
+    font-family:'Work Sans';
+}
+
+p,
+.fa,
+a {
+    font-size: 20px;
+    line-height: 1.25em;
+    color: #fff;
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    font-family: 'Crimson Text';
+    font-weight: 700;
+}
+
+.bg-white {
+    background-color: #fff !important;
+}
