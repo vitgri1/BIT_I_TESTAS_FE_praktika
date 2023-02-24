@@ -137,6 +137,7 @@
 
 .main.container .col.main-info .main-heading{
     font-size: clamp(24px, 6vw, 40px);
+    text-transform: capitalize;
 }
 
 .main.container .col.main-info > p{

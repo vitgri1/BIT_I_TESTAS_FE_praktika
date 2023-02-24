@@ -32,8 +32,30 @@
     margin: 0 var(--half-gap);
 }
 
+@media (min-width: 576px) {
+    :root {
+        --width: 540px;
+    }
+}
+
 @media (min-width: 768px) {
     :root {
-        --half-gap: 130px;
+        --width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    :root {
+        --width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    :root {
+        --width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    :root {
+        --width: 1175px;
     }
 }
