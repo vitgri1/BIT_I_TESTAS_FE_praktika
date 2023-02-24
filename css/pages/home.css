@@ -55,7 +55,7 @@
 }
 @media (min-width: 992px){
     .header.container {
-        padding: 35px 0 40px 0;
+        padding: 35px 0 25px 0;
     }
     .hidden-lg {
         display: none !important;
