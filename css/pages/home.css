@@ -82,7 +82,7 @@
 }
 
 .hero.container  .left-col > .hero-heading{
-    font-size: 28px;
+    font-size: clamp(28px, 7vw, 40px);
     color: #fff;
 }
 
@@ -133,6 +133,10 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+
+.main.container .col.main-info .main-heading{
+    font-size: clamp(24px, 6vw, 40px);
 }
 
 .main.container .col.main-info > p{
